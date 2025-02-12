@@ -98,7 +98,12 @@ let nums2 = [5, 6, 7, 8];
 let nums1nums2 = nums.concat(nums2);
 console.log(nums1nums2);
 
+
 let numsPlusNums2 = [...nums, ...nums2];
+
+document.write(numsPlusNums2);
+
+
 
 console.log(numsPlusNums2);
 
